@@ -199,3 +199,6 @@ const MyInput = ({ ref, ...props }: { ref?: React.Ref<HTMLInputElement> }) => {
 ### 타입스크립트로 커스텀 훅 강화하기
 
 매개변수와 반환값의 타입을 명확히 지정하여 사용하는 쪽에서 타입 추론이 가능하도록 합니다. 특히 이벤트 핸들러에는 ChangeEvent`<HTMLInputElement>` 같이 구체적인 타입을 명시하는 것이 좋습니다.
+
+
+
